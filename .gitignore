@@ -1,0 +1,5 @@
+# ignore .settings folder
+.settings
+
+#ignore .idea folder
+.idea
