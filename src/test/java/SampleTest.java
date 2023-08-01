@@ -11,4 +11,12 @@ public class SampleTest {
         driver.manage().window().maximize();
         driver.quit();
     }
+
+    @Test
+    public void checkFacebook() throws InterruptedException {
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://www.facebook.com");
+        driver.manage().window().maximize();
+        driver.quit();
+    }
 }
