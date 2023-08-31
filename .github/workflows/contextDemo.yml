@@ -44,7 +44,7 @@ jobs:
   job3:
     runs-on: ubuntu-latest
     if: ${{ always() }}
-    needs: [ contexts-demo ]
+    needs: [ contexts-demo-2 ]
     steps:
       - run: echo 'job3'
   job4:
