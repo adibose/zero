@@ -5,8 +5,7 @@
         <classes>
             <class name="SampleTest">
                 <methods>
-                    <include name="checkGoogle"/>
-                    <include name="checkFacebook"/>
+                    <include name="checkSelenoid"/>
                 </methods>
             </class>
         </classes>
