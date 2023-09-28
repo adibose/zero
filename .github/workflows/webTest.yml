@@ -26,7 +26,6 @@ jobs:
           browsers: chrome
           last-versions: 1
 
-
       - name: Run the tests
         run:
           mvn clean test
